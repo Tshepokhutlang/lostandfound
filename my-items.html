@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found | My Items</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Lost & Found</a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="report-item.html">Report Item</a></li>
+                    <li><a href="my-items.html">My Items</a></li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>My Reported Items</h2>
+        
+        <div class="items-tabs">
+            <button class="btn btn-outline active">Lost Items</button>
+            <button class="btn btn-outline">Found Items</button>
+        </div>
+        
+        <div class="items-grid">
+            <div class="item-card">
+                <img src="#" alt="Lost item">
+                <h3>Black Leather Wallet</h3>
+                <p><strong>Status:</strong> Lost</p>
+                <p><strong>Date:</strong> July 10, 2023</p>
+                <p><strong>Location:</strong> Central Park</p>
+                <div class="item-actions">
+                    <a href="#" class="btn btn-outline">Edit</a>
+                    <a href="#" class="btn">Mark as Found</a>
+                </div>
+            </div>
+            
+            <div class="item-card">
+                <img src="#" alt="Found item">
+                <h3>Set of House Keys</h3>
+                <p><strong>Status:</strong> Found</p>
+                <p><strong>Date:</strong> July 15, 2023</p>
+                <p><strong>Location:</strong> Main Street Cafe</p>
+                <div class="item-actions">
+                    <a href="#" class="btn btn-outline">Edit</a>
+                    <a href="#" class="btn">Mark as Returned</a>
+                </div>
+            </div>
+            
+            <div class="item-card">
+                <img src="https://via.placeholder.com/300x200?text=Phone" alt="Lost item">
+                <h3>iPhone 12 Pro</h3>
+                <p><strong>Status:</strong> Lost</p>
+                <p><strong>Date:</strong> July 18, 2023</p>
+                <p><strong>Location:</strong> City Mall</p>
+                <div class="item-actions">
+                    <a href="#" class="btn btn-outline">Edit</a>
+                    <a href="#" class="btn">Mark as Found</a>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="report-item.html" class="btn">Report New Item</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
